@@ -30,7 +30,7 @@ h1{
 article h2{
     font-size:1.8em;
     text-transform: uppercase;
-    border-bottom:2px solid #388E3C ;
+    border-bottom:2px solid rgb(105, 33, 90) ;
     padding-bottom:15px;
     font-weight: 500;
 }
