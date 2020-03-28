@@ -1,0 +1,133 @@
+.ligne{
+        text-decoration: underline #388E3C
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#424242 ;
+    font-size: 1em;
+    margin: 0;
+}
+#droite i{
+    color: green;
+    margin-right: 10px;
+}
+
+p {
+    
+    font-size: 25px;
+}
+
+h2, h1{
+  color:black;  
+}
+
+h1{
+    font-size:4em;
+    font-weight: 200;
+    line-height: 0;
+}
+article h2{
+    font-size:1.8em;
+    text-transform: uppercase;
+    border-bottom:2px solid #388E3C ;
+    padding-bottom:15px;
+    font-weight: 500;
+}
+
+h3{
+    color: #212121;
+}
+
+.titrecolor {
+    color: #388E3C ;
+    background-color:#424242 ;
+    text-align: center;
+}
+
+img {
+    width: 280px;
+    height: 280px;
+  border: none;
+  -moz-border-radius : 50%;
+  -webkit-border-radius : 50%;
+  border-radius : 50%;
+  background-color:#388E3C;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.Lefttext {
+    padding-left: 40px;
+    padding-right: 40px;
+} 
+
+.icoloisir  {
+    display: flex;
+    justify-content: center;
+}
+.icoloisir i {
+    padding: 0 30px;
+}
+
+header {
+    display: flex;
+}
+.nom{
+    color:#388E3C;
+    
+}
+
+.Titrenom{
+   margin-left: 100px;
+   margin-top: 100px;
+   }
+
+main{
+ display: flex;
+
+}
+
+#gauche {
+    width: 25%;
+    background-color:#388E3C;
+    position : relative;
+}
+
+.pic {
+    background-color: #388E3C;
+    width: 25%;
+    
+}
+
+#droite {
+    margin-left:100px ;
+}
+
+.descriptif {
+    display: flex;
+}
+
+.date {
+    width: 50%;
+}
+
+.text1 {
+    width: 50%;
+}
+
+#loisirs {
+    width: 100%;
+    position : absolute; 
+    bottom : 0;
+}
+
+aside p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#reco {
+    display: flex;
+    justify-content: space-around;
+}
