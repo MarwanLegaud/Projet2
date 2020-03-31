@@ -1,50 +1,19 @@
-.ligne{
-        text-decoration: underline #388E3C
-}
-
 body{
     font-family: 'Roboto', sans-serif;
     color:#424242 ;
     font-size: 1em;
     margin: 0;
 }
-#droite i{
-    color: rgb(49, 0, 128);
-    margin-right: 10px;
+header {
+    display: flex;
 }
-
-p {
-    
-    font-size: 25px;
+.nom{
+    color:#009688;
 }
-
-h2, h1{
-  color:black;  
+.Titrenom{
+    margin-left: 100px;
+    margin-top: 100px;
 }
-
-h1{
-    font-size:4em;
-    font-weight: 200;
-    line-height: 0;
-}
-article h2{
-    font-size:1.8em;
-    text-transform: uppercase;
-    border-bottom:2px solid rgb(105, 33, 90) ;
-    padding-bottom:15px;
-    font-weight: 500;
-}
-
-h3{
-    color: #212121;
-}
-
-.titrecolor {
-    color: #388E3C ;
-    background-color:#424242 ;
-    text-align: center;
-}
-
 img {
     width: 280px;
     height: 280px;
@@ -52,15 +21,27 @@ img {
   -moz-border-radius : 50%;
   -webkit-border-radius : 50%;
   border-radius : 50%;
-  background-color:#388E3C;
-  margin-left: 90px;
+  background-color:#009688;
+  margin-left: 60px;
   margin-top: 30px;
 }
-
 .Lefttext {
     padding-left: 40px;
     padding-right: 40px;
 } 
+
+#gauche {
+    width: 25%;
+    background-color:#009688;
+    position : relative;
+}
+
+.pic {
+    background-color: #009688;
+    width: 21.15%;
+    
+}
+
 
 .icoloisir  {
     display: flex;
@@ -70,63 +51,66 @@ img {
     padding: 0 30px;
 }
 
-header {
-    display: flex;
+
+#droite i{
+    color: #009688;
+    margin-right: 10px;
 }
-.nom{
-    color:#388E3C;
+p {
     
+    font-size: 25px;
 }
-
-.Titrenom{
-   margin-left: 100px;
-   margin-top: 100px;
-   }
-
+.ligne{
+    text-decoration: underline #009688
+}
+h1{
+    font-size:4em;
+    font-weight: 200;
+    line-height: 0;
+}
+h2, h1{
+  color:black;  
+}
+h3{
+    color: #212121;
+}
+article h2{
+    font-size:1.8em;
+    text-transform: uppercase;
+    border-bottom:2px solid #009688 ;
+    padding-bottom:15px;
+    font-weight: 500;
+}
+.titrecolor {
+    color: #009688 ;
+    background-color:#424242 ;
+    text-align: center;
+}
 main{
  display: flex;
 
 }
-
-#gauche {
-    width: 25%;
-    background-color:#388E3C;
-    position : relative;
-}
-
-.pic {
-    background-color: #388E3C;
-    width: 25%;
-    
-}
-
 #droite {
     margin-left:100px ;
 }
-
 .descriptif {
     display: flex;
 }
-
 .date {
     width: 50%;
 }
-
 .text1 {
     width: 50%;
 }
-
 #loisirs {
     width: 100%;
     position : absolute; 
     bottom : 0;
 }
-
 aside p {
   padding-left: 40px;
   padding-right: 40px;
 }
-
 #reco {
     display: flex;
     justify-content: space-around;
