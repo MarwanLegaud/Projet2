@@ -132,3 +132,90 @@ article h2{
 .email {
     font-weight: normal;
 }
+
+
+
+
+
+
+   /* Responsive */
+
+   /* Tablette */
+
+   @media screen and (max-width: 991px) {
+    
+    
+main{
+    flex-direction: column-reverse;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 3em;
+}
+h2{
+    margin-left: 0em;
+    padding-left: 0em;
+}
+
+#droite {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+.droite{
+    margin-left: 0;
+    padding-left: 0;
+}
+.pic{
+    background-color:white;
+    display: flex;
+    margin: auto;
+    padding-top: 2em;
+}
+.titrenom{
+    text-align: center;
+    margin-left: 0;
+}
+#gauche{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.resp1{
+    display: flex;
+    width: 50%;
+}
+.resp2{
+    display: flex;
+    width: 50%;
+}
+
+
+
+
+
+
+    /* Téléphone */
+
+@media screen and (max-width: 425px) {
+#droite {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius:7px;
+}
+header {
+        margin-bottom: 50px;
+    }
+h1 {
+    font-size: 2.2em;
+}  
+
+    
+.pic{
+        max-width:150px;
+}
