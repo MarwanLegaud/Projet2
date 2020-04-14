@@ -133,10 +133,10 @@ article h2{
     font-weight: normal;
 }
 
+ 0
 
 
-
-
+  
 
    /* Responsive */
 
@@ -155,19 +155,9 @@ header{
 h1 {
     font-size: 3em;
 }
-h2{
-    margin-left: 0em;
-    padding-left: 0em;
-}
 
 #droite {
     width: 100%;
-    margin-left: 0;
-    padding-left: 0;
-}
-.droite{
-    margin-left: 0;
-    padding-left: 0;
 }
 .pic{
     background-color:white;
@@ -193,6 +183,20 @@ h2{
     width: 50%;
 }
 
+#resp{
+    display: flex;
+    justify-content: space-around ;
+}
+
+#loisirs{
+    position : relative ; 
+}
+
+article h2, .descriptif {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 
 
@@ -200,13 +204,16 @@ h2{
 
     /* Téléphone */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
+
+
 #droite {
     display: flex;
     flex-direction: column;
-    padding: 10px;
     margin-bottom: 15px;
     border-radius:7px;
+    width: 100%;
+  
 }
 header {
         margin-bottom: 50px;
@@ -214,8 +221,22 @@ header {
 h1 {
     font-size: 2.2em;
 }  
-
     
 .pic{
         max-width:150px;
+}
+
+main{
+    flex-direction: column-reverse;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+article {
+    padding-right: 10px;
+}
+#reco{
+    flex-direction: column;
+}
 }
