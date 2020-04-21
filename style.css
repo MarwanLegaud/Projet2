@@ -22,7 +22,6 @@ main{
 h1{
     font-size:4em;
     font-weight: 200;
-    line-height: 0;
 }
 h2, h1{
     color:black;  
@@ -148,6 +147,7 @@ main{
 header{
     display: flex;
     flex-direction: column;
+    margin-bottom: 0px;
 }
 h1 {
     font-size: 3em;
@@ -161,10 +161,12 @@ h1 {
     display: flex;
     margin: auto;
     padding-top: 2em;
+    width: 100%;
 }
 .titrenom{
     text-align: center;
     margin-left: 0;
+    margin-top: 20px;
 }
 #gauche{
     width: 100%;
@@ -177,12 +179,13 @@ h1 {
 }
 .resp2{
     display: flex;
-    width: 50%;
+        width: 50%;
 }
 
 #resp{
     display: flex;
     justify-content: space-around ;
+    flex-direction: column;
 }
 
 #loisirs{
@@ -212,17 +215,11 @@ article h2, .descriptif {
     width: 100%;
   
 }
-header {
-        margin-bottom: 50px;
-    }
+
 h1 {
     font-size: 2.2em;
 }  
- /*   
-.pic{
-        max-width:150px;
-}
-*/
+
 main{
     flex-direction: column-reverse;
 }
@@ -235,5 +232,20 @@ article {
 }
 #reco{
     flex-direction: column;
+    padding-left: 10px;
+}
+.descriptif{
+    flex-direction: column;
+}
+.date , .text1 {
+    width:100% ;
+
+}
+}
+
+@media all and (max-width: 370px) {
+
+article h2 {
+    font-size: 1.5em;
 }
 }
