@@ -139,7 +139,7 @@ article h2{
 
    /* Tablette */
 
-   @media screen and (max-width: 991px) {
+   @media all and (max-width: 991px) {
     
     
 main{
@@ -201,7 +201,7 @@ article h2, .descriptif {
 
     /* Téléphone */
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
 
 
 #droite {
